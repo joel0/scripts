@@ -1,7 +1,8 @@
 #!/bin/bash
 
 apt update
-apt -y install curl sudo git build-essential elinks vim unattended-upgrades
+apt -y install curl sudo git build-essential elinks vim unattended-upgrades \
+    nload net-tools
 
 adduser jmay sudo
 
